@@ -103,9 +103,6 @@
             <div class="tree-item-inner nav-file-title-content lsl-f">
                 {isVisible ? item.displayName : ""}
             </div>
-            {#if isVisible}
-                <div class="tf-taglist">{@html extraTagsHtml}</div>
-            {/if}
         </div>
     {/snippet}
 </OnDemandRender>
